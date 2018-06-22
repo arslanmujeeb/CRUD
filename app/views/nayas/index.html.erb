@@ -1,0 +1,8 @@
+<% @nayas.each do |naya| %>
+<h2> <%= naya.Name %></h2>
+<p><%= truncate(naya.Type, :length => 50) %> </p>
+<br>
+
+<%= link_to " Read an animal" , naya %>
+
+<% end %>|

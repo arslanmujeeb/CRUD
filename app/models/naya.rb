@@ -1,0 +1,2 @@
+class Naya < ApplicationRecord
+end

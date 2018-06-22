@@ -1,0 +1,11 @@
+
+
+  <h2><%= @naya.Name %></h2>
+
+  <p><%= @naya.Type %></p>
+
+  <%= link_to "edit animal", edit_naya_path(@naya) %>
+
+
+  <%= link_to "delete", naya_path(@naya), method: :delete , data: {confirm: "are  you sure?"} %>
+
